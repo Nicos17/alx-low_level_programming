@@ -1,20 +1,20 @@
-# inclure  " main.h "
-# inclure  < chaîne.h >
+#include "main.h"
+#include <string.h>
 
-/* *
-* main - Imprime les nombres entre 00 et 89.
+/**
+* main - Prints numbers between 00 to 89.
 *
-* Retour : Toujours 0 (Succès)
+* Return: Always 0 (Success)
 */
-int  principal ( vide )
+int main(void)
 {
-	char word[ 9 ] = " _putchar " ;
-	entier je = 0 ;
+	char word[9] = "_putchar";
+	int i = 0;
 
-	pour (i = 0 ; i < 8 ; i++)
-		_putchar (mot[i]);
+	for (i = 0; i < 8; i++)
+		_putchar(word[i]);
 
-	_putchar ( ' \n ' );
+	_putchar('\n');
 
-	retour ( 0 );
+	return (0);
 }
